@@ -7,7 +7,7 @@ function highlightText (id) {
         elementList = document.getElementById("sidebar-list").childNodes;
         for (let i = 1; i < elementList.length; i+=2 ){
             if (elementList[i].id === id){
-                elementList[i].style.color = '#f17900';
+                elementList[i].style.color = '#d42c1a';
             } else {
                 elementList[i].style.color = '#d8d1c9';
             }

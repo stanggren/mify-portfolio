@@ -55,7 +55,7 @@
 .back{
     color: var(--primary-color);
     font-size: 4rem;
-    letter-spacing: -0.92rem;
+    letter-spacing: -0.6rem;
     text-decoration: none;
     padding: 1rem;
 }

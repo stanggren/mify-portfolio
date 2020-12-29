@@ -1,9 +1,9 @@
 :root {
-    --background-color: #0e0f0f; 
-    --primary-color: #f18a23;
-    --secondary-color: #f17900;
-    --link-color: #f17900;
-    --link-color-hover: rgb(85, 189, 0);
+    --background-color: #000000; 
+    --primary-color: #d8d1c9;
+    --secondary-color: #d8d1c9;
+    --link-color: #d8d1c9;
+    --link-color-hover: #d42c1a;
 }
 
 *{
@@ -44,9 +44,6 @@ ul {
 
 .section-title p{
     letter-spacing: -4px;
-}
-.section-title h2 {
-    padding-left: 1rem;
 }
 
 /* REUSABLE */
