@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    
+    <script defer src="scripts/app.js"></script>
+    <script defer src="scripts/sidebar.js"></script>
+    <script defer src="scripts/slider.js"></script>
+
+    <title>MF - Portfolio</title>
+  </head>
+
+  <body>
+
+    <div class="sidebar">
+      <ul id="sidebar-list" class="menu">
+        <li id="header">Who</li>
+        <li id="works">Works</li>
+        <li id="contact">Contact</li>
+      </ul>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+
+        <header id="header-wrapper" class="flex-column">
+
+          <div class="about-wrapper">
+            <div class="section-title">
+              <p>0.1</p>
+              <h2>WHO</h2>
+            </div>
+            <div class="about-content">
+              <div class="about-text">
+                <p>I'm Michaela Frycklund. A Gothenburg based contemporary artist. My works often include sculpting and fabrics.</p>
+                </br>
+                <p>Qualifications:</p>
+                <p>School 1 - 2018-2019</p>
+                <p>School 2 - 2019-2020</p>
+              </div>
+              <div class="slideshow-container">
+                <img class="show" src="./images/work1/img-4.jpg" alt="dashboard website"/>
+                <img src="./images/work2/img-6.jpg" alt="dice game website" />
+                <img src="./images/work7/img-3.jpg" alt="Recipe search website" />
+                <img src="./images/work3/img-3.jpg" alt="Planet Jumper website" />
+                <img src="./images/work4/img-3.jpg" alt="Recipe search website" />
+                <img src="./images/work5/img-2.jpg" alt="Recipe search website" />
+                <img src="./images/work6/img-3.jpg" alt="Recipe search website" />
+                <img src="./images/work7/img-4.jpg" alt="Recipe search website" />
+                <img src="./images/work8/img-3.jpg" alt="Recipe search website" />
+                <img src="./images/work5/img-3.jpg" alt="Recipe search website" />
+              </div>
+            </div>
+          </div>
+    
+        </header>
+    
+        <main class="flex-column">
+    
+        <div class="works-wrapper">
+          <div id="image-gallery" class="section-title">
+            <p>0.2</p>
+            <h2>WORKS</h2>
+          </div>
+          <div class="about-content">
+            <p>A selection of works.</p>
+          </div>
+        </div>
+    
+        <div class="image-container">
+          <div class="image-gallery">
+              <a href="work1.html" class="img-1"></a>
+              <a href="work2.html" class="img-2"></a>
+              <a href="work3.html" class="img-3"></a>
+              <a href="work4.html" class="img-4"></a>
+              <a href="work5.html" class="img-5"></a>
+              <a href="work6.html" class="img-6"></a>
+              <a href="work7.html" class="img-7"></a>
+              <a href="work8.html" class="img-8"></a>
+          </div>
+        </div>
+    
+        </main>
+    
+        <footer class="flex-column">
+          <div class="about-wrapper">
+            <div id="contact-title" class="section-title">
+              <p>0.4</p>
+              <h2>CONTACT</h2>
+            </div>
+            <div class="contact-content">
+              <p>070-247 10 12</p>
+              <p>mifrycklund@gmail.com</p>
+            </div>
+          </div>
+        </footer>
+    
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <p id="modal-title"></p>
+            <img id="modal-img" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>

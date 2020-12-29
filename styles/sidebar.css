@@ -1,0 +1,33 @@
+ /* SIDEBAR */
+
+.sidebar {
+    position: fixed;
+    top: 5%;
+    left: 3%;
+    color: #d8d1c9;
+}
+
+.menu{
+    font-size: 1rem;
+}
+
+.menu > * {
+    padding: 0.5rem;
+}
+
+.menu > *:hover{
+    cursor:pointer;
+}
+
+#header {
+    color: var(--secondary-color);
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1165px) {
+    .sidebar {
+        position: absolute;
+        top: 2%;
+    }
+}
