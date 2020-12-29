@@ -31,7 +31,7 @@ $(window).on("scroll", function(){
  * Displays skills wrapper  on 600 pageYOffset (when user scrolls)
  */
 $(window).on("scroll", function(){
-    if(getScrollTop() >= 1000){
+    if(getScrollTop() >= 920){
         highlightText('works');
     } 
 })
@@ -41,7 +41,7 @@ $(window).on("scroll", function(){
  * Displays contact wrapper on 2350 pageYOffset (when user scrolls)
  */
 $(window).on("scroll", function(){
-    if(getScrollTop() >= 1780){
+    if(getScrollTop() >= 1580){
         highlightText('contact');
     } 
 })
